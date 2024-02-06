@@ -7195,10 +7195,21 @@ button.bg-warning:focus {
   background-color: #F85C70 !important;
 }
 
+
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #f62b45 !important;
+}
+
+.bg-blue {
+  background-color: #5c7df8 !important;
+}
+
+a.bg-blue:hover, a.bg-blue:focus,
+button.bg-blue:hover,
+button.bg-blue:focus {
+  background-color: #2b75f6 !important;
 }
 
 .bg-light {
@@ -11206,7 +11217,7 @@ p {
 
 .portfolio .filters a.active {
   opacity: 1;
-  background: #F85C70;
+  background: #009fdb;
   color: #fff;
 }
 
@@ -11230,7 +11241,7 @@ p {
           transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(248, 92, 112, 0.8);
+  background: rgba(0, 159, 219, 0.8);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11678,7 +11689,7 @@ pre .code {
   content: '';
   width: 20px;
   height: 2px;
-  background: #F85C70;
+  background: #008ec3;
   display: block;
   margin-top: 10px;
 }

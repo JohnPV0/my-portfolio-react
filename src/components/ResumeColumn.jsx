@@ -12,7 +12,7 @@ export default function ResumeColumn(props) {
           </div>
         </div>
         <div className='card-body'>
-          { items.map((item, index) => {
+          { items.length > 0 ? items.map((item, index) => {
             return (
               <div key={index}>
                 <h6 className='title text-danger'>{ item.startYear } - { item.endYear }</h6>
@@ -20,9 +20,9 @@ export default function ResumeColumn(props) {
                 <p className='subtitle' >{ item.subtitle }</p>
                 { index < items.length - 1 && <hr /> }
               </div>
-            )
-            
-          }) }
+            )}) 
+            : <p>No data available</p>
+          }
         </div>
       </div>
     </div>

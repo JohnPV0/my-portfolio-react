@@ -3,14 +3,7 @@ import MenuItem from './MenuItem'
 import avatar from '../assets/imgs/avatar.jpg'
 
 export default function Menu() {
-  const [menu, setMenu] = React.useState([
-    { href: '#home', text: 'Home', isActive: true},
-    { href: '#about', text: 'About', isActive: false}  ,
-    { href: '#resume', text: 'Resume', isActive: false},
-    { href: '#', text: 'Portfolio', isActive: false},
-    { href: '#', text: 'Blog', isActive: false},
-    { href: '#', text: 'Contact', isActive: false},
-  ])
+
   return (
     <nav className='navbar sticky-top navbar-expand-lg navbar-light bg-white' data-spy='affix' data-offset-top='510'>
       <div className='container'>
@@ -31,9 +24,8 @@ export default function Menu() {
             </li>
           </ul>
           <ul className='navbar-nav ml-auto'>
-            <MenuItem href='#' text='Portfolio' />
-            <MenuItem href='#' text='Blog' />
-            <MenuItem href='#' text='Contact' />
+            <MenuItem href='#portfolio' text='Portfolio' />
+            <MenuItem href='#contact' text='Contact' />
           </ul>
         </div>
       </div>

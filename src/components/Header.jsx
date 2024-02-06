@@ -6,7 +6,7 @@ export default function Header(props) {
 
   const downloadPdf = () => {
     // Cambia 'ruta/al/archivo.pdf' por la ruta relativa o absoluta al archivo PDF en tu servidor
-    var rutaPDF = 'public/pdfs/MyCV.pdf';
+    var rutaPDF = '/pdfs/MyCV.pdf';
     
     // Abre el archivo PDF en una nueva pestaña
     window.open(rutaPDF, '_blank');

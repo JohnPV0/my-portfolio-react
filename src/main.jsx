@@ -7,7 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
-import Login from './components/admin/Login.jsx'
+import Admin from './components/admin/Admin.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/admin',
-    element: <Login />
+    element: <Admin />
   }
 ])
 
