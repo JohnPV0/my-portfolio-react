@@ -2194,9 +2194,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #fdd6db;
+  border-color: #a1d8fa;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(248, 92, 112, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(92, 187, 148, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -11221,6 +11221,7 @@ p {
   color: #fff;
 }
 
+
 .portfolio .portfolio-container .portfolio-item {
   position: relative;
   padding-left: 0;
@@ -11278,6 +11279,8 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+
 
 /* blog wrapper */
 .blog-card {

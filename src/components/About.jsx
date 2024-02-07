@@ -26,20 +26,20 @@ export default function About(props) {
           <li><span>Location</span> : {city}, {state}. {country}.</li>
         </ul>
         <ul className='social-icons pt-3'>
-          <li className='social-item'><a className='social-link' href={ socialNetworks.facebook }><i className='ti-facebook' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className='social-link' href={ socialNetworks.twitter }><i className='ti-twitter' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className='social-link' href={ socialNetworks.linkedin }><i className='ti-linkedin' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className='social-link' href={ socialNetworks.instagram }><i className='ti-instagram' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className='social-link' href={ socialNetworks.github }><i className='ti-github' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className='social-link' href={ socialNetworks.facebook } target='_blank' rel='noreferrer'><i className='ti-facebook' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className='social-link' href={ socialNetworks.twitter } target='_blank' rel='noreferrer'><i className='ti-twitter' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className='social-link' href={ socialNetworks.linkedin } target='_blank' rel='noreferrer'><i className='ti-linkedin' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className='social-link' href={ socialNetworks.instagram } target='_blank' rel='noreferrer'><i className='ti-instagram' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className='social-link' href={ socialNetworks.github } target='_blank' rel='noreferrer'><i className='ti-github' aria-hidden="true"></i></a></li>
         </ul>
       </div>
-      <div className='col-lg-4 about-card'>
+      {/* <div className='col-lg-4 about-card'>
         <h3 className='font-weight-light'>My Expertise</h3>
         <span className='line mb-5'></span>
         <AboutExpertiseItem tiIconName='ti-widget' title='Title' description='Description' />
         <AboutExpertiseItem tiIconName='ti-paint-bucket' title='Title' description='Description' />
         <AboutExpertiseItem tiIconName='ti-stats-up' title='Title' description='Description' />
-      </div>
+      </div> */}
     </div>
   )
 }

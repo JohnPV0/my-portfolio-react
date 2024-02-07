@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Contact(props) {
-  const { socialNetworks } = props
+  const { socialNetworks, email, phone } = props
   return (
     <div className='section contact' id='contact'>
       <div className='map' id='map'></div>
@@ -34,7 +34,7 @@ export default function Contact(props) {
                   <i className='ti-mobile icon-md'></i>
                 </div>
                 <div className='col-10'>
-                  <h6 className='d-inline'>Phone : <br /> <span className='text-muted'> +52 729 106 8666 </span> </h6>
+                  <h6 className='d-inline'>Phone : <br /> <span className='text-muted'> { phone } </span> </h6>
                 </div>
               </div>
               <div className='row mb-2'>
@@ -42,15 +42,15 @@ export default function Contact(props) {
                   <i className='ti-envelope icon-md'></i>
                 </div>
                 <div className='col-10'>
-                  <h6 className='d-inline'>Email : <br /> <span className='text-muted'> perezvale1500@gmail.com </span> </h6>
+                  <h6 className='d-inline'>Email : <br /> <span className='text-muted'> { email } </span> </h6>
                 </div>
               </div>
               <ul className='social-icons pt-3'>
-                <li className='social-item'><a className="social-link text-dark" href={ socialNetworks.facebook }><i className='ti-facebook' aria-hidden="true"></i></a></li>
-                <li className='social-item'><a className="social-link text-dark" href={ socialNetworks.twitter }><i className='ti-twitter' aria-hidden="true"></i></a></li>
-                <li className='social-item'><a className="social-link text-dark" href={ socialNetworks.linkedin }><i className='ti-linkedin' aria-hidden="true"></i></a></li>
-                <li className='social-item'><a className="social-link text-dark" href={ socialNetworks.instagram }><i className='ti-instagram' aria-hidden="true"></i></a></li>
-                <li className='social-item'><a className="social-link text-dark" href={ socialNetworks.github }><i className='ti-github' aria-hidden="true"></i></a></li>
+                <li className='social-item'><a className="social-link text-dark" target='_blank' rel='noreferrer' href={ socialNetworks.facebook }><i className='ti-facebook' aria-hidden="true"></i></a></li>
+                <li className='social-item'><a className="social-link text-dark" target='_blank' rel='noreferrer' href={ socialNetworks.twitter }><i className='ti-twitter' aria-hidden="true"></i></a></li>
+                <li className='social-item'><a className="social-link text-dark" target='_blank' rel='noreferrer' href={ socialNetworks.linkedin }><i className='ti-linkedin' aria-hidden="true"></i></a></li>
+                <li className='social-item'><a className="social-link text-dark" target='_blank' rel='noreferrer' href={ socialNetworks.instagram }><i className='ti-instagram' aria-hidden="true"></i></a></li>
+                <li className='social-item'><a className="social-link text-dark" target='_blank' rel='noreferrer' href={ socialNetworks.github }><i className='ti-github' aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>

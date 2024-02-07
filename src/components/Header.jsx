@@ -16,11 +16,11 @@ export default function Header(props) {
     <header id='home' className='header'>
       <div className='container'>
         <ul className='social-icons pt-3'>
-          <li className='social-item'><a className="social-link text-light" href={ socialNetworks.facebook }><i className='ti-facebook' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className="social-link text-light" href={ socialNetworks.twitter }><i className='ti-twitter' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className="social-link text-light" href={ socialNetworks.linkedin }><i className='ti-linkedin' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className="social-link text-light" href={ socialNetworks.instagram }><i className='ti-instagram' aria-hidden="true"></i></a></li>
-          <li className='social-item'><a className="social-link text-light" href={ socialNetworks.github }><i className='ti-github' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className="social-link text-light" target='_blank' rel='noreferrer' href={ socialNetworks.facebook }><i className='ti-facebook' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className="social-link text-light" target='_blank' rel='noreferrer' href={ socialNetworks.twitter }><i className='ti-twitter' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className="social-link text-light" target='_blank' rel='noreferrer' href={ socialNetworks.linkedin }><i className='ti-linkedin' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className="social-link text-light" target='_blank' rel='noreferrer' href={ socialNetworks.instagram }><i className='ti-instagram' aria-hidden="true"></i></a></li>
+          <li className='social-item'><a className="social-link text-light" target='_blank' rel='noreferrer' href={ socialNetworks.github }><i className='ti-github' aria-hidden="true"></i></a></li>
         </ul>
         <div className='header-content'>
           <h4 className='header-subtitle'>Hello, I am</h4>
